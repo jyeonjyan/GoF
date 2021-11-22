@@ -8,7 +8,8 @@ package com.pattern.GoF.singleton.doubleCheck;
  * @since NOV.22
  */
 public class Settings {
-    private static Settings instance;
+    // volatile 키워드를 달아야지만 jdk 1.5 이후에서 동작한다.
+    private static volatile Settings instance;
 
     // Private 생성자
     private Settings(){}
