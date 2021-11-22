@@ -1,5 +1,7 @@
 package com.pattern.GoF.singleton.innerClass;
 
+import java.io.Serializable;
+
 /**
  * innerclass 를 통해 thread-safe 한 싱글톤 패턴 구현하기
  * 실행은 테스트코드를 참고해주세요.
@@ -7,7 +9,7 @@ package com.pattern.GoF.singleton.innerClass;
  * @author 전지환
  * @since NOV.22
  */
-public class Settings {
+public class Settings implements Serializable {
     // private 생성자
     private Settings(){}
 
