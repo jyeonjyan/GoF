@@ -1,4 +1,4 @@
-package com.pattern.GoF.singleton;
+package com.pattern.GoF.singleton.doubleCheck;
 
 /**
  * Double checked locking 을 통한 thread-safe 싱글톤 패턴.
