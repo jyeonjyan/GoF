@@ -13,7 +13,7 @@ public class Settings {
     private static Settings instance;
 
     // thread-safe 하지만, 동기화를 항상 해야한다는 점이 성능상 이슈가 있다.
-    private synchronized static Settings getInstance(){
+    public synchronized static Settings getInstance(){
         if (instance == null){
             instance = new Settings();
         }

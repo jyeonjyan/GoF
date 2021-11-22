@@ -1,6 +1,5 @@
-package com.pattern.GoF.singleton;
+package com.pattern.GoF.singleton.doubleCheck;
 
-import com.pattern.GoF.singleton.doubleCheck.Settings;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -16,9 +15,9 @@ class SettingsTest {
     @Test
     @DisplayName("Double checked locking 을 통한 thread-safe 싱글톤")
     void return_same_instance(){
-        Settings settings = Settings.getInstance();
-        Settings settings_2 = Settings.getInstance();
+        Settings instance = Settings.getInstance();
+        Settings instance1 = Settings.getInstance();
 
-        assertEquals(settings, settings_2);
+        assertEquals(instance, instance1);
     }
 }
