@@ -1,8 +1,8 @@
 # 싱글톤 패턴 복습
 
 ## 자바에서 enum을 사용하지 않고 싱글톤 패턴을 구현하는 방법
-다양한 방법이 있지만, 성능 측면에서 생각했을 때 static innerClass 를 통한 싱글톤 패턴 구현을 선호한다.  
-`classHolder` 라는 innerClass에 outerClass 인스턴스를(eager) 생성하여 `outerClass.getInstance()` 메소드에서 일관된 인스턴스를 반환할 수 있도록 한다.  
+다양한 방법이 있지만, 성능 측면에서 생각했을 때 static inner class 를 통한 싱글톤 패턴 구현을 선호한다.  
+`classHolder` 라는 inner class에 outer class 인스턴스를(eager) 생성하여 `outerClass.getInstance()` 메소드에서 일관된 인스턴스를 반환할 수 있도록 한다.  
 
 하지만 치명적이지는 않지만 유일한 단점을 꼽자면.. (백기선 개발자님 답변)
 > 인스턴스를 필요한 순간에 만드는 "초기화 지연" (lazy initialization)을 사용하지 못한다는 이야기입니다.  
