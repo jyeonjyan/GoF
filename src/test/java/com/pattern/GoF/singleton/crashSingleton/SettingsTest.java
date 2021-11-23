@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class SettingsTest {
     @Test
-    @DisplayName("리플랙션을 통해 싱글톤 패턴을 깨트리는 방법")
+    @DisplayName("리플렉션을 통해 싱글톤 패턴을 깨트리는 방법")
     void crash_singleton() throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         // 정상적인 방법으로 얻어낸 instance
         Settings instance = Settings.getInstance();
