@@ -40,6 +40,6 @@ public class CarFactory {
     }
 
     private static void sendEmailTo(String email, Car car) {
-        System.out.println(email+" 여기로 "+car.name+"가 주문되었습니다.");
+        System.out.println(email+" 여기로 "+car.logo+"가 출고 되었습니다.");
     }
 }
