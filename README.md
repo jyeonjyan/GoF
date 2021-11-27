@@ -10,7 +10,7 @@
     * [enum을 이용한 싱글톤, 리플랙션 조작 차단](./src/test/java/com/pattern/GoF/singleton/enumType/SettingsTest.java)
 * [싱글톤 패턴 복습](./readmeFiles/singleton-review.md)
 * [팩토리 메소드 패턴](./readmeFiles/Factory-pattern.md)
-  * [팩토리 메소드 패턴 적용하기]()
+  * [팩토리 메소드 패턴 적용하기](./src/main/java/com/pattern/GoF/factory/applied)
 
 
 ## Reference
