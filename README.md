@@ -15,3 +15,9 @@
 
 ## Reference
 * [백기선 - GoF의 디자인 패턴](https://inf.run/kdrm)
+
+## Notes
+* 해당 GoF 레포지터리는 Java 기반으로 작성되었습니다.
+* springboot package 구조 때문에 [octotree](https://www.octotree.io/) 사용을 권장합니다.
+* 현재는 구현에 집중되어 있지만, 추후 개념적인 부분도 업로드 할 예정입니다.
+* 잘못된 개념이나 오타는 issue 작성 부탁드립니다 🙇🏻‍♂️
