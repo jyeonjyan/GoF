@@ -11,6 +11,7 @@
 * [싱글톤 패턴 복습](./readmeFiles/singleton-review.md)
 * [팩토리 메소드 패턴](./readmeFiles/Factory-pattern.md)
   * [팩토리 메소드 패턴 적용하기](./src/main/java/com/pattern/GoF/factory/applied)
+* [팩토리 메소드 패턴 복습](./readmeFiles/factory-pattern-review.md)
 
 
 ## Reference
