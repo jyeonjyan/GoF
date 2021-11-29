@@ -15,7 +15,7 @@
 * [팩토리 메소드 패턴 복습](./readmeFiles/factory-pattern-review.md)
 * [spring 찾아보는 팩토리 메소드 패턴](./src/main/java/com/pattern/GoF/factory/spring)
 
-### [추상 팩토리 패턴]()
+### [추상 팩토리 패턴](./readmeFiles/abstract-factory-pattern.md)
 * 추상 팩토리 패턴 구현하기
 * 추상 팩토리 패턴의 장점과 단점
 
