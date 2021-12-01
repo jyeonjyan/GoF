@@ -4,9 +4,9 @@ import lombok.Builder;
 
 @Builder
 public class LombokEx {
-    private String name;
-    private String age;
-    private String sex;
+    private final String name;
+    private final String age;
+    private final String sex;
 
     public static void main(String[] args) {
         LombokExBuilder builder = LombokEx.builder()
