@@ -22,6 +22,8 @@
 ### 빌더 패턴
 * [빌더 패턴을 사용해야 하는 이유](./src/main/java/com/pattern/GoF/builder/motivation)
 * [빌더 패턴 적용하기](./src/main/java/com/pattern/GoF/builder/pattern)
+* [빌더 패턴 장점과 단점 -> 내 TIL을 참고해주면 좋겠다.](https://github.com/jyeonjyan/TIL/blob/master/Lecture/JAVA/builder-pattern.md)
+* [자바와 스프링에서 사용하는 빌더 패턴]()
 
 ## Reference
 * [백기선 - GoF의 디자인 패턴](https://inf.run/kdrm)
