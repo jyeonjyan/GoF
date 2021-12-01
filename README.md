@@ -19,7 +19,9 @@
 * 추상 팩토리 패턴 구현하기
 * 추상 팩토리 패턴의 장점과 단점
 
-### [빌더 패턴]()
+### 빌더 패턴
+* [빌더 패턴을 사용해야 하는 이유](./src/main/java/com/pattern/GoF/builder/motivation)
+* [빌더 패턴 적용하기](./src/main/java/com/pattern/GoF/builder/pattern)
 
 ## Reference
 * [백기선 - GoF의 디자인 패턴](https://inf.run/kdrm)
