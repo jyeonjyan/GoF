@@ -26,7 +26,7 @@
 * [자바와 스프링에서 사용하는 빌더 패턴](./src/main/java/com/pattern/GoF/builder/spring)
 
 ### [프로토타입 패턴](./readmeFiles/prototype-pattern.md)
-* [프로토타입 패턴 적용하기]()
+* [프로토타입 패턴 적용하기](./src/main/java/com/pattern/GoF/prototype/example)
 
 ## Reference
 * [백기선 - GoF의 디자인 패턴](https://inf.run/kdrm)
