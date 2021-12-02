@@ -25,6 +25,9 @@
 * [빌더 패턴 장점과 단점 -> 내 TIL을 참고해주면 좋겠다.](https://github.com/jyeonjyan/TIL/blob/master/Lecture/JAVA/builder-pattern.md)
 * [자바와 스프링에서 사용하는 빌더 패턴](./src/main/java/com/pattern/GoF/builder/spring)
 
+### [프로토타입 패턴](./readmeFiles/prototype-pattern.md)
+* [프로토타입 패턴 적용하기]()
+
 ## Reference
 * [백기선 - GoF의 디자인 패턴](https://inf.run/kdrm)
 
