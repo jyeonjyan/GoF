@@ -29,6 +29,7 @@
 * [프로토타입 패턴 적용하기](./src/main/java/com/pattern/GoF/prototype/example)
 * [프로토타입 장점과 단점](./readmeFiles/prototype-pattern-review.md)
 * [자바 스프링에서 찾아보는 패턴](./src/main/java/com/pattern/GoF/prototype/spring/modelmapper)
+  * [ModelMapper 사용하기](https://github.com/jyeonjyan/TIL/blob/master/Spring/SpringBoot/modelmapper-love.md)
 
 ## Reference
 * [백기선 - GoF의 디자인 패턴](https://inf.run/kdrm)
