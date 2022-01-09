@@ -1,4 +1,4 @@
-package com.pattern.GoF.adapter;
+package com.pattern.GoF.adapter.account;
 
 import java.time.LocalDateTime;
 
