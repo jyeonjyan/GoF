@@ -4,14 +4,15 @@ import java.time.LocalDateTime;
 
 public class AccountService {
 
-    public Account createAccount(String username, String password, String birth, Account.Sex sex){
+    // DB에서 찾았다고 생각하고 Account를 return 한다.
+    public Account findByUsername(String username){
         return Account.builder()
                 .username(username)
-                .password(password)
-                .birth(birth)
+                .password("1234")
+                .birth("0125")
                 .createdDateTime(LocalDateTime.now())
                 .createdDateTime(LocalDateTime.now())
-                .sex(sex)
+                .sex(Account.Sex.MALE)
                 .build();
     }
 

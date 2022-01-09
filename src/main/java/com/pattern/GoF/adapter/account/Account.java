@@ -25,4 +25,12 @@ public class Account {
         this.modifiedDateTime = modifiedDateTime;
         this.sex = sex;
     }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
 }
