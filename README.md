@@ -30,8 +30,17 @@
 * [프로토타입 장점과 단점](./readmeFiles/prototype-pattern-review.md)
 * [자바 스프링에서 찾아보는 패턴](./src/main/java/com/pattern/GoF/prototype/spring/modelmapper)
   * [ModelMapper 사용하기](https://github.com/jyeonjyan/TIL/blob/master/Spring/SpringBoot/modelmapper-love.md)
+  
+### [어댑터 패턴](./src/main/java/com/pattern/GoF/adapter)
+* [어댑터 패턴 소개](readmeFiles/composite-pattern.md)
 
-### 어댑터 패턴(./)
+### [컴포짓 패턴](./src/main/java/com/pattern/GoF/composite)
+
+### [데코레이터 패턴](./src/main/java/com/pattern/GoF/decorator)
+
+### [플라이웨이트 패턴](./src/main/java/com/pattern/GoF/flyweight)
+
+### [프록시 패턴](./src/main/java/com/pattern/GoF/proxy)
 
 ## Reference
 * [백기선 - GoF의 디자인 패턴](https://inf.run/kdrm)
