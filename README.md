@@ -32,9 +32,9 @@
   * [ModelMapper 사용하기](https://github.com/jyeonjyan/TIL/blob/master/Spring/SpringBoot/modelmapper-love.md)
   
 ### [어댑터 패턴](./src/main/java/com/pattern/GoF/adapter)
-* [어댑터 패턴 소개](readmeFiles/composite-pattern.md)
 
 ### [컴포짓 패턴](./src/main/java/com/pattern/GoF/composite)
+* [컴포짓 패턴 소개](./readmeFiles/composite-pattern.md)
 
 ### [데코레이터 패턴](./src/main/java/com/pattern/GoF/decorator)
 
