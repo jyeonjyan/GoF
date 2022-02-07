@@ -22,3 +22,22 @@ OOP에서 Composite 는 하나 이상의 유사한 객체를 구성으로 설계
     <img src="./material/composite-uml.png" width="800px">
 </p>
 
+1. Client 는 Component 인터페이스만을 사용한다. (컴포넌트들을 위한 추상화된 개념)
+2. Leaf는 Component 메소드를 구현한다. (구체 클래스를 나타낸다)
+3. Composite는 Component를 구현하는 Leaf들을 관리하기 위한 리스트가 존재한다. `ArrayList<Component>`
+4. 또한 Leaf 들을 관리하기 위한 메소드도 존재한다 (`.addLeaf()`, `.removeLeaf()`)
+
+
+아래의 그림을 참고하면 Composite가 Leaf를 관리한다는 느낌이 어떤 느낌인지 이해하기 쉬울 것이다.
+
+<p align="center">
+    <img src="./material/composite-manage-leaf.png" width="800px">
+</p>
+
+그림을 통해 다시 강조하자면..  
+`Composite`는 `Component`를 구현한 `Leaf`들을 관리하며 `Composite` 타입은 당연히 `Leaf`의 추상적 타입 `Component` 이다.  
+`Client`에서 `Leaf` 객체가 다루는 **메소드를 호출할 수 없기 때문에 타입에 대한 안전성을 얻게 된다.**
+
+## 정리
+어떤 방식이 더 좋냐를 따지기에는 너무 많은 것이 고려된다.  
+위키에서의 이론은 컴포짓 패턴은 타입의 **안정성보다는 일관성**을 더 강조한다고 한다.
