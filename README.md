@@ -37,6 +37,7 @@
 * [컴포짓 패턴 소개](./readmeFiles/composite-pattern.md)
 
 ### [데코레이터 패턴](./src/main/java/com/pattern/GoF/decorator)
+* [데코레이터 패턴 소개]()
 
 ### [플라이웨이트 패턴](./src/main/java/com/pattern/GoF/flyweight)
 
