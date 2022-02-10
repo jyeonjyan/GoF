@@ -35,9 +35,13 @@
 
 ### [컴포짓 패턴](./src/main/java/com/pattern/GoF/composite)
 * [컴포짓 패턴 소개](./readmeFiles/composite-pattern.md)
+* [패턴 적용하기 - before](./src/main/java/com/pattern/GoF/composite/_01_before/)
+* [패턴 적용하기 - after](./src/main/java/com/pattern/GoF/composite/_02_after/)
 
 ### [데코레이터 패턴](./src/main/java/com/pattern/GoF/decorator)
 * [데코레이터 패턴 소개](./readmeFiles/decorator-pattern.md)
+* [패턴 적용하기 - before](./src/main/java/com/pattern/GoF/decorator/_01_before/)
+* [패턴 적용하기 - after](./src/main/java/com/pattern/GoF/decorator/_02_after/)
 
 ### [플라이웨이트 패턴](./src/main/java/com/pattern/GoF/flyweight)
 
