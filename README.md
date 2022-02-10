@@ -44,6 +44,7 @@
 * [패턴 적용하기 - after](./src/main/java/com/pattern/GoF/decorator/_02_after/)
 
 ### [플라이웨이트 패턴](./src/main/java/com/pattern/GoF/flyweight)
+* [플라이웨이트 패턴 소개](./re)
 
 ### [프록시 패턴](./src/main/java/com/pattern/GoF/proxy)
 
