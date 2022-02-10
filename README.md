@@ -46,7 +46,7 @@
 ### [플라이웨이트 패턴](./src/main/java/com/pattern/GoF/flyweight)
 * [플라이웨이트 패턴 소개](./readmeFiles/flyweight-pattern.md)
 * [플라이웨이트 적용하기 - before](./src/main/java/com/pattern/GoF/flyweight/_01_before/)
-* [플라이웨이트 적용하기 - before](./src/main/java/com/pattern/GoF/flyweight/_02_after/)
+* [플라이웨이트 적용하기 - after](./src/main/java/com/pattern/GoF/flyweight/_02_after/)
 
 
 ### [프록시 패턴](./src/main/java/com/pattern/GoF/proxy)
