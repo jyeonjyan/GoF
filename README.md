@@ -51,6 +51,11 @@
 
 ### [프록시 패턴](./src/main/java/com/pattern/GoF/proxy)
 
+### [전략 패턴](./src/main/java/com/pattern/GoF/strategy)
+* [전략 패턴 소개](./readmeFiles/strategy-pattern.md)
+* [전략 패턴 적용하기 - before](./src/main/java/com/pattern/GoF/strategy/_01_before/)
+* 전략 패턴 적용하기 - after
+
 ## Reference
 * [백기선 - GoF의 디자인 패턴](https://inf.run/kdrm)
 
